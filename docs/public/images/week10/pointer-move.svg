@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+<title id="title">포인터 연산으로 배열의 다음 칸으로 이동</title><desc id="desc">p, p+1, p+2가 배열의 연속된 원소를 가리키는 모습</desc>
+<rect width="960" height="430" rx="24" fill="#f8fafc"/><g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">포인터에 1을 더하면 같은 자료형의 다음 칸으로 이동합니다</text>
+<g><rect x="135" y="120" width="210" height="105" rx="15" fill="#fff" stroke="#3b82f6" stroke-width="3"/><rect x="375" y="120" width="210" height="105" rx="15" fill="#fff" stroke="#8b5cf6" stroke-width="3"/><rect x="615" y="120" width="210" height="105" rx="15" fill="#fff" stroke="#f59e0b" stroke-width="3"/></g>
+<g text-anchor="middle"><text x="240" y="105" font-family="Consolas, monospace" font-size="21" fill="#475569">arr[0]</text><text x="480" y="105" font-family="Consolas, monospace" font-size="21" fill="#475569">arr[1]</text><text x="720" y="105" font-family="Consolas, monospace" font-size="21" fill="#475569">arr[2]</text><text x="240" y="184" font-family="Consolas, monospace" font-size="38" font-weight="700">10</text><text x="480" y="184" font-family="Consolas, monospace" font-size="38" font-weight="700">20</text><text x="720" y="184" font-family="Consolas, monospace" font-size="38" font-weight="700">30</text></g>
+<g stroke-width="5" fill="none"><path d="M240 340 L240 230" stroke="#2563eb"/><path d="M480 340 L480 230" stroke="#7c3aed"/><path d="M720 340 L720 230" stroke="#d97706"/></g>
+<g text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700"><text x="240" y="378" fill="#2563eb">p</text><text x="480" y="378" fill="#7c3aed">p + 1</text><text x="720" y="378" fill="#d97706">p + 2</text></g>
+<text x="480" y="414" text-anchor="middle" font-size="19" fill="#475569">int 포인터라면 실제 주소는 보통 sizeof(int)만큼씩 이동합니다.</text></g></svg>

@@ -23,7 +23,8 @@ export default defineConfig({
       { text: '6주차', link: '/lectures/06-functions-1' },
       { text: '7주차', link: '/lectures/07-functions-2' },
       { text: '8주차', link: '/lectures/08-arrays-pointers-1' },
-      { text: '9주차', link: '/lectures/09-arrays-pointers-2' }
+      { text: '9주차', link: '/lectures/09-arrays-pointers-2' },
+      { text: '10주차', link: '/lectures/10-arrays-pointers-3' }
     ],
     sidebar: [
       {
@@ -45,7 +46,8 @@ export default defineConfig({
           { text: '6주차 · 함수와 기억 클래스(1)', link: '/lectures/06-functions-1' },
           { text: '7주차 · 함수와 기억 클래스(2)', link: '/lectures/07-functions-2' },
           { text: '8주차 · 배열과 포인터(1)', link: '/lectures/08-arrays-pointers-1' },
-          { text: '9주차 · 배열과 포인터(2)', link: '/lectures/09-arrays-pointers-2' }
+          { text: '9주차 · 배열과 포인터(2)', link: '/lectures/09-arrays-pointers-2' },
+          { text: '10주차 · 배열과 포인터(3)', link: '/lectures/10-arrays-pointers-3' }
         ]
       }
     ],
