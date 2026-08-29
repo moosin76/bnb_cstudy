@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">변수의 값과 메모리 주소</title>
+  <desc id="desc">변수 a는 값 10을 저장하고 있고, 이해를 돕기 위한 예시 주소 0x1000에 놓여 있는 모습을 보여준다.</desc>
+  <rect width="960" height="360" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+    <text x="480" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">변수에는 값이 있고, 그 변수가 놓인 위치에는 주소가 있습니다</text>
+    <text x="90" y="112" font-size="22" font-weight="700" fill="#334155">우리가 부르는 이름</text>
+    <rect x="80" y="140" width="210" height="120" rx="18" fill="#eef6ff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="185" y="188" text-anchor="middle" font-size="24" fill="#334155">변수 이름</text>
+    <text x="185" y="232" text-anchor="middle" font-size="44" font-family="Consolas, monospace" font-weight="700" fill="#1d4ed8">a</text>
+
+    <line x1="310" y1="200" x2="405" y2="200" stroke="#64748b" stroke-width="7" stroke-linecap="round"/>
+    <polygon points="405,200 382,185 382,215" fill="#64748b"/>
+
+    <rect x="430" y="110" width="430" height="180" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <rect x="455" y="135" width="180" height="130" rx="14" fill="#effcf4" stroke="#55b37a" stroke-width="3"/>
+    <text x="545" y="172" text-anchor="middle" font-size="20" fill="#334155">저장된 값</text>
+    <text x="545" y="225" text-anchor="middle" font-size="46" font-family="Consolas, monospace" font-weight="700" fill="#276749">10</text>
+    <text x="730" y="172" text-anchor="middle" font-size="20" fill="#334155">메모리 주소</text>
+    <text x="730" y="225" text-anchor="middle" font-size="36" font-family="Consolas, monospace" font-weight="700" fill="#c26a00">0x1000</text>
+    <text x="480" y="328" text-anchor="middle" font-size="19" fill="#475569">0x1000은 설명을 위한 예시입니다. 실제 주소는 실행할 때마다 달라질 수 있습니다.</text>
+  </g>
+</svg>

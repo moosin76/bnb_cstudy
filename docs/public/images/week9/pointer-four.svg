@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">a, &amp;a, p, *p 비교</title>
+  <desc id="desc">일반 변수의 값, 그 변수의 주소, 포인터에 저장된 주소, 포인터가 가리키는 실제 값을 네 칸으로 비교한다.</desc>
+  <rect width="960" height="420" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+    <text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">포인터에서 가장 중요한 네 가지 표현</text>
+
+    <rect x="55" y="95" width="195" height="240" rx="18" fill="#ffffff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="152" y="145" text-anchor="middle" font-size="38" font-family="Consolas, monospace" font-weight="700" fill="#1d4ed8">a</text>
+    <text x="152" y="190" text-anchor="middle" font-size="21" fill="#334155">a의 값</text>
+    <text x="152" y="245" text-anchor="middle" font-size="42" font-family="Consolas, monospace" font-weight="700" fill="#0f172a">10</text>
+
+    <rect x="275" y="95" width="195" height="240" rx="18" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+    <text x="372" y="145" text-anchor="middle" font-size="38" font-family="Consolas, monospace" font-weight="700" fill="#b45309">&amp;a</text>
+    <text x="372" y="190" text-anchor="middle" font-size="21" fill="#334155">a의 주소</text>
+    <text x="372" y="245" text-anchor="middle" font-size="33" font-family="Consolas, monospace" font-weight="700" fill="#0f172a">0x1000</text>
+
+    <rect x="495" y="95" width="195" height="240" rx="18" fill="#ffffff" stroke="#8b5cf6" stroke-width="3"/>
+    <text x="592" y="145" text-anchor="middle" font-size="38" font-family="Consolas, monospace" font-weight="700" fill="#6d28d9">p</text>
+    <text x="592" y="190" text-anchor="middle" font-size="21" fill="#334155">p에 저장된 주소</text>
+    <text x="592" y="245" text-anchor="middle" font-size="33" font-family="Consolas, monospace" font-weight="700" fill="#0f172a">0x1000</text>
+
+    <rect x="715" y="95" width="195" height="240" rx="18" fill="#ffffff" stroke="#55b37a" stroke-width="3"/>
+    <text x="812" y="145" text-anchor="middle" font-size="38" font-family="Consolas, monospace" font-weight="700" fill="#276749">*p</text>
+    <text x="812" y="190" text-anchor="middle" font-size="21" fill="#334155">p가 가리키는 값</text>
+    <text x="812" y="245" text-anchor="middle" font-size="42" font-family="Consolas, monospace" font-weight="700" fill="#0f172a">10</text>
+
+    <text x="480" y="382" text-anchor="middle" font-size="21" fill="#475569">a와 *p는 값이 같고, &amp;a와 p는 주소가 같습니다.</text>
+  </g>
+</svg>

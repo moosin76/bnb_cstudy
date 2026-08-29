@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="350" viewBox="0 0 960 350" role="img" aria-labelledby="title desc">
+  <title id="title">NULL 포인터의 의미</title>
+  <desc id="desc">포인터 p가 NULL일 때는 어떤 변수도 가리키지 않는 상태이며 역참조하면 안 된다는 점을 보여준다.</desc>
+  <rect width="960" height="350" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+    <text x="480" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">NULL은 “지금은 아무 곳도 가리키지 않음”을 뜻합니다</text>
+
+    <rect x="90" y="105" width="260" height="150" rx="20" fill="#eef6ff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="220" y="150" text-anchor="middle" font-size="24" font-weight="700" fill="#334155">포인터 p</text>
+    <text x="220" y="205" text-anchor="middle" font-size="42" font-family="Consolas, monospace" font-weight="700" fill="#1d4ed8">NULL</text>
+
+    <line x1="380" y1="180" x2="575" y2="180" stroke="#94a3b8" stroke-width="6" stroke-dasharray="14 12"/>
+    <line x1="465" y1="140" x2="505" y2="220" stroke="#dc2626" stroke-width="8"/>
+    <line x1="505" y1="140" x2="465" y2="220" stroke="#dc2626" stroke-width="8"/>
+
+    <rect x="610" y="105" width="260" height="150" rx="20" fill="#fff7ed" stroke="#f59e0b" stroke-width="3"/>
+    <text x="740" y="150" text-anchor="middle" font-size="23" font-weight="700" fill="#334155">가리키는 대상</text>
+    <text x="740" y="205" text-anchor="middle" font-size="34" font-weight="700" fill="#b45309">없음</text>
+
+    <text x="480" y="310" text-anchor="middle" font-size="20" fill="#b91c1c">p == NULL 인 상태에서 *p를 사용하면 안 됩니다.</text>
+  </g>
+</svg>

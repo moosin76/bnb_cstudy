@@ -22,7 +22,8 @@ export default defineConfig({
       { text: '5주차', link: '/lectures/05-control-flow' },
       { text: '6주차', link: '/lectures/06-functions-1' },
       { text: '7주차', link: '/lectures/07-functions-2' },
-      { text: '8주차', link: '/lectures/08-arrays-pointers-1' }
+      { text: '8주차', link: '/lectures/08-arrays-pointers-1' },
+      { text: '9주차', link: '/lectures/09-arrays-pointers-2' }
     ],
     sidebar: [
       {
@@ -43,7 +44,8 @@ export default defineConfig({
           { text: '5주차 · 선택 제어문과 반복 제어문', link: '/lectures/05-control-flow' },
           { text: '6주차 · 함수와 기억 클래스(1)', link: '/lectures/06-functions-1' },
           { text: '7주차 · 함수와 기억 클래스(2)', link: '/lectures/07-functions-2' },
-          { text: '8주차 · 배열과 포인터(1)', link: '/lectures/08-arrays-pointers-1' }
+          { text: '8주차 · 배열과 포인터(1)', link: '/lectures/08-arrays-pointers-1' },
+          { text: '9주차 · 배열과 포인터(2)', link: '/lectures/09-arrays-pointers-2' }
         ]
       }
     ],

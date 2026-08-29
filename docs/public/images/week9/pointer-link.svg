@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
+  <title id="title">포인터 p가 변수 a를 가리키는 모습</title>
+  <desc id="desc">포인터 변수 p 안에는 a의 주소 0x1000이 저장되고, p가 a를 가리키는 관계를 화살표로 보여준다.</desc>
+  <rect width="960" height="380" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+    <text x="480" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">p = &amp;a 는 “p에 a의 주소를 저장한다”는 뜻입니다</text>
+
+    <rect x="85" y="105" width="270" height="190" rx="20" fill="#eef6ff" stroke="#3b82f6" stroke-width="3"/>
+    <text x="220" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#334155">포인터 변수 p</text>
+    <text x="220" y="188" text-anchor="middle" font-size="19" fill="#64748b">p 안에 저장된 값</text>
+    <text x="220" y="235" text-anchor="middle" font-size="40" font-family="Consolas, monospace" font-weight="700" fill="#1d4ed8">0x1000</text>
+    <text x="220" y="272" text-anchor="middle" font-size="17" fill="#64748b">주소를 저장</text>
+
+    <line x1="370" y1="200" x2="585" y2="200" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="585,200 558,181 558,219" fill="#f59e0b"/>
+    <text x="478" y="178" text-anchor="middle" font-size="21" font-weight="700" fill="#b45309">가리킨다</text>
+
+    <rect x="610" y="105" width="270" height="190" rx="20" fill="#effcf4" stroke="#55b37a" stroke-width="3"/>
+    <text x="745" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#334155">일반 변수 a</text>
+    <text x="745" y="188" text-anchor="middle" font-size="19" fill="#64748b">주소 0x1000에 저장</text>
+    <text x="745" y="235" text-anchor="middle" font-size="44" font-family="Consolas, monospace" font-weight="700" fill="#276749">10</text>
+    <text x="745" y="272" text-anchor="middle" font-size="17" fill="#64748b">실제 값</text>
+
+    <text x="480" y="340" text-anchor="middle" font-size="20" font-family="Consolas, monospace" fill="#475569">int a = 10;   int *p = &amp;a;</text>
+  </g>
+</svg>
