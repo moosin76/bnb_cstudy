@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">반복문과 배열</title><desc id="desc">반복문의 i 값이 0부터 4까지 바뀌면서 배열 각 칸을 차례대로 선택하는 그림</desc>
+<rect width="960" height="360" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+<text x="480" y="46" font-size="28" font-weight="700" fill="#0f172a">반복문의 i가 배열 칸 번호가 됩니다</text>
+<rect x="280" y="75" width="400" height="58" rx="14" fill="#eef6ff" stroke="#60a5fa" stroke-width="2"/>
+<text x="480" y="111" font-size="23" font-family="Consolas, monospace" fill="#1d4ed8">for (i = 0; i &lt; 5; i++)</text>
+<line x1="480" y1="136" x2="480" y2="176" stroke="#3b82f6" stroke-width="5"/><polygon points="480,188 470,170 490,170" fill="#3b82f6"/>
+<text x="480" y="214" font-size="22" font-family="Consolas, monospace" fill="#334155">score[i]</text>
+<g transform="translate(95 238)">
+<g><rect width="140" height="75" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="3"/><text x="70" y="31" font-size="17" fill="#334155">i = 0</text><text x="70" y="59" font-size="23" font-weight="700" fill="#1d4ed8">90</text></g>
+<g transform="translate(155 0)"><rect width="140" height="75" rx="10" fill="#ffffff" stroke="#94a3b8"/><text x="70" y="31" font-size="17" fill="#334155">i = 1</text><text x="70" y="59" font-size="23" font-weight="700" fill="#0f172a">80</text></g>
+<g transform="translate(310 0)"><rect width="140" height="75" rx="10" fill="#ffffff" stroke="#94a3b8"/><text x="70" y="31" font-size="17" fill="#334155">i = 2</text><text x="70" y="59" font-size="23" font-weight="700" fill="#0f172a">70</text></g>
+<g transform="translate(465 0)"><rect width="140" height="75" rx="10" fill="#ffffff" stroke="#94a3b8"/><text x="70" y="31" font-size="17" fill="#334155">i = 3</text><text x="70" y="59" font-size="23" font-weight="700" fill="#0f172a">100</text></g>
+<g transform="translate(620 0)"><rect width="140" height="75" rx="10" fill="#ffffff" stroke="#94a3b8"/><text x="70" y="31" font-size="17" fill="#334155">i = 4</text><text x="70" y="59" font-size="23" font-weight="700" fill="#0f172a">85</text></g>
+</g></g></svg>

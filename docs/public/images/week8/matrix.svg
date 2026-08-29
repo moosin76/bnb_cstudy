@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390" role="img" aria-labelledby="title desc">
+<title id="title">2차원 배열의 행과 열</title><desc id="desc">2행 3열 배열에서 score 1 2가 두 번째 행 세 번째 열을 가리키는 그림</desc>
+<rect width="960" height="390" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+<text x="480" y="48" font-size="28" font-weight="700" fill="#0f172a">2차원 배열은 표처럼 보면 쉽습니다</text>
+<text x="480" y="82" font-size="18" fill="#475569">앞 번호는 행, 뒤 번호는 열</text>
+<g transform="translate(250 115)">
+<text x="155" y="-10" font-size="18" fill="#475569">열 0</text><text x="285" y="-10" font-size="18" fill="#475569">열 1</text><text x="415" y="-10" font-size="18" fill="#475569">열 2</text>
+<text x="55" y="61" font-size="18" fill="#475569">행 0</text><text x="55" y="151" font-size="18" fill="#475569">행 1</text>
+<g font-size="27" font-weight="700" fill="#0f172a">
+<rect x="90" y="20" width="120" height="75" rx="10" fill="#fff" stroke="#94a3b8"/><text x="150" y="68">90</text>
+<rect x="220" y="20" width="120" height="75" rx="10" fill="#fff" stroke="#94a3b8"/><text x="280" y="68">80</text>
+<rect x="350" y="20" width="120" height="75" rx="10" fill="#fff" stroke="#94a3b8"/><text x="410" y="68">70</text>
+<rect x="90" y="110" width="120" height="75" rx="10" fill="#fff" stroke="#94a3b8"/><text x="150" y="158">100</text>
+<rect x="220" y="110" width="120" height="75" rx="10" fill="#fff" stroke="#94a3b8"/><text x="280" y="158">85</text>
+<rect x="350" y="110" width="120" height="75" rx="10" fill="#fff7ed" stroke="#f59e0b" stroke-width="4"/><text x="410" y="158" fill="#b45309">95</text>
+</g></g>
+<text x="480" y="338" font-size="22" font-family="Consolas, monospace" font-weight="700" fill="#b45309">score[1][2] = 95</text>
+<text x="480" y="370" font-size="17" fill="#475569">두 번째 행(1) + 세 번째 열(2)</text>
+</g></svg>

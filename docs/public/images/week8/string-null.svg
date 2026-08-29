@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">문자열 끝의 널 문자</title><desc id="desc">Tom 문자열이 문자 배열 T o m 널 문자 네 칸으로 저장되는 그림</desc>
+<rect width="960" height="360" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+<text x="480" y="48" font-size="28" font-weight="700" fill="#0f172a">문자열에는 보이지 않는 “끝 표시”가 하나 더 있습니다</text>
+<text x="480" y="84" font-size="18" fill="#475569">char name[] = "Tom";</text>
+<g transform="translate(180 125)">
+<g><rect width="135" height="105" rx="12" fill="#fff" stroke="#60a5fa" stroke-width="2"/><text x="67" y="34" font-size="17" fill="#475569">name[0]</text><text x="67" y="78" font-size="38" font-weight="700" fill="#1d4ed8">T</text></g>
+<g transform="translate(150 0)"><rect width="135" height="105" rx="12" fill="#fff" stroke="#60a5fa" stroke-width="2"/><text x="67" y="34" font-size="17" fill="#475569">name[1]</text><text x="67" y="78" font-size="38" font-weight="700" fill="#1d4ed8">o</text></g>
+<g transform="translate(300 0)"><rect width="135" height="105" rx="12" fill="#fff" stroke="#60a5fa" stroke-width="2"/><text x="67" y="34" font-size="17" fill="#475569">name[2]</text><text x="67" y="78" font-size="38" font-weight="700" fill="#1d4ed8">m</text></g>
+<g transform="translate(450 0)"><rect width="150" height="105" rx="12" fill="#fff7ed" stroke="#f59e0b" stroke-width="4"/><text x="75" y="34" font-size="17" fill="#475569">name[3]</text><text x="75" y="78" font-size="34" font-family="Consolas, monospace" font-weight="700" fill="#b45309">\0</text></g>
+</g>
+<line x1="705" y1="245" x2="705" y2="282" stroke="#f59e0b" stroke-width="4"/><polygon points="705,295 696,278 714,278" fill="#f59e0b"/>
+<text x="705" y="326" font-size="19" font-weight="700" fill="#b45309">문자열은 여기까지!</text>
+<text x="340" y="292" font-size="18" fill="#475569">화면에는 T, o, m만 보이지만 메모리에는 \0도 함께 저장됩니다.</text>
+</g></svg>

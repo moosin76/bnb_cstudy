@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
+<title id="title">배열 인덱스는 0부터 시작</title>
+<desc id="desc">score 배열의 다섯 칸이 0부터 4까지 번호가 붙는 모습을 보여주는 그림</desc>
+<rect width="960" height="330" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+<text x="480" y="48" font-size="28" font-weight="700" fill="#0f172a">배열의 첫 번째 칸 번호는 0입니다</text>
+<text x="480" y="82" font-size="18" fill="#475569">배열 크기가 5라면 사용할 수 있는 번호는 0, 1, 2, 3, 4</text>
+<g transform="translate(95 118)">
+<g><rect x="0" y="0" width="140" height="100" rx="12" fill="#ffffff" stroke="#3b82f6" stroke-width="3"/><text x="70" y="38" font-size="18" fill="#475569">score[0]</text><text x="70" y="76" font-size="30" font-weight="700" fill="#1d4ed8">90</text><text x="70" y="132" font-size="18" font-weight="700" fill="#1d4ed8">1번째 칸</text></g>
+<g transform="translate(155 0)"><rect x="0" y="0" width="140" height="100" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/><text x="70" y="38" font-size="18" fill="#475569">score[1]</text><text x="70" y="76" font-size="30" font-weight="700" fill="#0f172a">80</text><text x="70" y="132" font-size="18" fill="#475569">2번째 칸</text></g>
+<g transform="translate(310 0)"><rect x="0" y="0" width="140" height="100" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/><text x="70" y="38" font-size="18" fill="#475569">score[2]</text><text x="70" y="76" font-size="30" font-weight="700" fill="#0f172a">70</text><text x="70" y="132" font-size="18" fill="#475569">3번째 칸</text></g>
+<g transform="translate(465 0)"><rect x="0" y="0" width="140" height="100" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/><text x="70" y="38" font-size="18" fill="#475569">score[3]</text><text x="70" y="76" font-size="30" font-weight="700" fill="#0f172a">100</text><text x="70" y="132" font-size="18" fill="#475569">4번째 칸</text></g>
+<g transform="translate(620 0)"><rect x="0" y="0" width="140" height="100" rx="12" fill="#fff7ed" stroke="#f59e0b" stroke-width="3"/><text x="70" y="38" font-size="18" fill="#475569">score[4]</text><text x="70" y="76" font-size="30" font-weight="700" fill="#b45309">85</text><text x="70" y="132" font-size="18" font-weight="700" fill="#b45309">5번째 칸</text></g>
+</g>
+<text x="480" y="304" font-size="20" font-weight="700" fill="#334155">마지막 칸 번호 = 배열 크기 - 1</text>
+</g>
+</svg>
