@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">FILE 포인터와 현재 읽는 위치</title><desc id="desc">FILE 포인터가 열린 파일을 관리하고 현재 읽고 쓸 위치가 이동하는 모습을 보여준다.</desc>
+<defs><marker id="b" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/></marker></defs>
+<rect width="960" height="420" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">FILE *fp는 열린 파일을 다루는 손잡이처럼 생각하세요</text>
+<rect x="80" y="120" width="240" height="150" rx="18" fill="#fff" stroke="#7c3aed" stroke-width="3"/>
+<text x="200" y="175" text-anchor="middle" font-family="Consolas, monospace" font-size="31" font-weight="700" fill="#6d28d9">FILE *fp</text><text x="200" y="220" text-anchor="middle" font-size="19" fill="#475569">열린 파일 정보 관리</text>
+<line x1="330" y1="195" x2="485" y2="195" stroke="#7c3aed" stroke-width="4" marker-end="url(#b)"/>
+<rect x="500" y="125" width="380" height="145" rx="14" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+<text x="690" y="160" text-anchor="middle" font-size="21" font-weight="700" fill="#0f172a">study.txt</text>
+<rect x="530" y="185" width="70" height="45" fill="#dbeafe" stroke="#94a3b8"/><rect x="600" y="185" width="70" height="45" fill="#ede9fe" stroke="#94a3b8"/><rect x="670" y="185" width="70" height="45" fill="#fff" stroke="#94a3b8"/><rect x="740" y="185" width="70" height="45" fill="#fff" stroke="#94a3b8"/><text x="565" y="214" text-anchor="middle" font-size="18">A</text><text x="635" y="214" text-anchor="middle" font-size="18">B</text><text x="705" y="214" text-anchor="middle" font-size="18">C</text><text x="775" y="214" text-anchor="middle" font-size="18">D</text>
+<path d="M635 285 L635 240" stroke="#dc2626" stroke-width="4" marker-end="url(#b)"/><text x="635" y="315" text-anchor="middle" font-size="19" font-weight="700" fill="#dc2626">현재 위치</text>
+<text x="480" y="372" text-anchor="middle" font-size="20" fill="#475569">읽거나 쓰면 현재 위치가 다음 데이터 쪽으로 이동합니다.</text>
+</g></svg>

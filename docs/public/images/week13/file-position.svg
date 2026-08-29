@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+<title id="title">rewind와 fseek의 파일 위치 이동</title><desc id="desc">파일의 현재 위치를 rewind로 처음으로 보내고 fseek로 원하는 곳으로 움직이는 개념이다.</desc>
+<defs><marker id="d" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+<rect width="960" height="400" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">파일 안에도 현재 위치가 있습니다</text>
+<g transform="translate(130 145)"><rect x="0" y="0" width="140" height="70" fill="#dbeafe" stroke="#94a3b8"/><rect x="140" y="0" width="140" height="70" fill="#fff" stroke="#94a3b8"/><rect x="280" y="0" width="140" height="70" fill="#fff" stroke="#94a3b8"/><rect x="420" y="0" width="140" height="70" fill="#ede9fe" stroke="#94a3b8"/><rect x="560" y="0" width="140" height="70" fill="#fff" stroke="#94a3b8"/><text x="70" y="43" text-anchor="middle" font-size="20">처음</text><text x="210" y="43" text-anchor="middle" font-size="20">...</text><text x="350" y="43" text-anchor="middle" font-size="20">...</text><text x="490" y="43" text-anchor="middle" font-size="20">현재</text><text x="630" y="43" text-anchor="middle" font-size="20">끝</text></g>
+<path d="M620 245 C620 315 220 315 220 230" fill="none" stroke="#16a34a" stroke-width="4" marker-end="url(#d)"/><text x="420" y="325" text-anchor="middle" font-size="20" font-weight="700" fill="#15803d">rewind(fp) → 처음으로</text>
+<path d="M250 120 C400 80 590 80 725 135" fill="none" stroke="#7c3aed" stroke-width="4" marker-end="url(#d)"/><text x="490" y="95" text-anchor="middle" font-size="20" font-weight="700" fill="#6d28d9">fseek() → 원하는 위치로 이동</text>
+</g></svg>

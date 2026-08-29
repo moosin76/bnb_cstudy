@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+<title id="title">EOF까지 파일을 읽는 올바른 반복 흐름</title><desc id="desc">읽기 함수의 결과를 먼저 확인하고 성공한 데이터만 처리하는 반복문 흐름이다.</desc>
+<defs><marker id="c" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+<rect width="960" height="440" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">파일 끝까지 읽기: 먼저 읽고, 성공했는지 확인합니다</text>
+<rect x="350" y="90" width="260" height="65" rx="14" fill="#fff" stroke="#2563eb" stroke-width="3"/><text x="480" y="132" text-anchor="middle" font-size="21" font-weight="700">한 번 읽기</text>
+<line x1="480" y1="158" x2="480" y2="195" stroke="#2563eb" stroke-width="3" marker-end="url(#c)"/>
+<polygon points="480,195 640,255 480,315 320,255" fill="#fff" stroke="#f59e0b" stroke-width="3"/><text x="480" y="249" text-anchor="middle" font-size="19" font-weight="700">읽기 성공?</text><text x="480" y="275" text-anchor="middle" font-size="17" fill="#475569">EOF / NULL인지 확인</text>
+<line x1="320" y1="255" x2="180" y2="255" stroke="#16a34a" stroke-width="3" marker-end="url(#c)"/><text x="255" y="235" text-anchor="middle" font-size="18" fill="#15803d">성공</text>
+<rect x="55" y="215" width="125" height="80" rx="12" fill="#fff" stroke="#16a34a" stroke-width="3"/><text x="118" y="265" text-anchor="middle" font-size="18" font-weight="700">데이터 처리</text>
+<path d="M118 215 C110 100 280 105 345 115" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#c)"/>
+<line x1="640" y1="255" x2="790" y2="255" stroke="#dc2626" stroke-width="3" marker-end="url(#c)"/><text x="715" y="235" text-anchor="middle" font-size="18" fill="#b91c1c">끝/실패</text>
+<rect x="790" y="215" width="120" height="80" rx="12" fill="#fff" stroke="#dc2626" stroke-width="3"/><text x="850" y="265" text-anchor="middle" font-size="18" font-weight="700">반복 종료</text>
+<text x="480" y="385" text-anchor="middle" font-size="20" font-weight="700" fill="#334155">while (!feof(fp))보다 읽기 함수의 반환값을 직접 검사하는 습관이 안전합니다.</text>
+</g></svg>

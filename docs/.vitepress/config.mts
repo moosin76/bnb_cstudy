@@ -26,7 +26,8 @@ export default defineConfig({
       { text: '9주차', link: '/lectures/09-arrays-pointers-2' },
       { text: '10주차', link: '/lectures/10-arrays-pointers-3' },
       { text: '11주차', link: '/lectures/11-struct-union-1' },
-      { text: '12주차', link: '/lectures/12-struct-union-2' }
+      { text: '12주차', link: '/lectures/12-struct-union-2' },
+      { text: '13주차', link: '/lectures/13-file-io' }
     ],
     sidebar: [
       {
@@ -51,7 +52,8 @@ export default defineConfig({
           { text: '9주차 · 배열과 포인터(2)', link: '/lectures/09-arrays-pointers-2' },
           { text: '10주차 · 배열과 포인터(3)', link: '/lectures/10-arrays-pointers-3' },
           { text: '11주차 · 구조체와 공용체(1)', link: '/lectures/11-struct-union-1' },
-          { text: '12주차 · 구조체와 공용체(2)', link: '/lectures/12-struct-union-2' }
+          { text: '12주차 · 구조체와 공용체(2)', link: '/lectures/12-struct-union-2' },
+          { text: '13주차 · 파일처리 함수', link: '/lectures/13-file-io' }
         ]
       }
     ],

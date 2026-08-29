@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+<title id="title">텍스트 파일과 바이너리 파일 비교</title><desc id="desc">텍스트는 사람이 읽는 문자 형태, 바이너리는 메모리 데이터 형태로 저장되는 차이를 보여준다.</desc>
+<rect width="960" height="440" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">텍스트 파일과 바이너리 파일</text>
+<rect x="65" y="95" width="380" height="270" rx="20" fill="#fff" stroke="#2563eb" stroke-width="3"/><text x="255" y="145" text-anchor="middle" font-size="26" font-weight="700" fill="#1d4ed8">텍스트 파일</text><text x="255" y="195" text-anchor="middle" font-family="Consolas, monospace" font-size="22" fill="#0f172a">Kim 20 95.5</text><text x="255" y="245" text-anchor="middle" font-size="19" fill="#475569">메모장으로 읽기 쉬움</text><text x="255" y="285" text-anchor="middle" font-size="19" fill="#475569">fprintf · fscanf · fgets</text><text x="255" y="325" text-anchor="middle" font-size="18" fill="#15803d">초보 실습에 편함</text>
+<rect x="515" y="95" width="380" height="270" rx="20" fill="#fff" stroke="#7c3aed" stroke-width="3"/><text x="705" y="145" text-anchor="middle" font-size="26" font-weight="700" fill="#6d28d9">바이너리 파일</text><text x="705" y="195" text-anchor="middle" font-family="Consolas, monospace" font-size="20" fill="#0f172a">4B 69 6D 00 14 ...</text><text x="705" y="245" text-anchor="middle" font-size="19" fill="#475569">사람이 바로 읽기 어려움</text><text x="705" y="285" text-anchor="middle" font-size="19" fill="#475569">fwrite · fread</text><text x="705" y="325" text-anchor="middle" font-size="18" fill="#7c3aed">구조체를 통째로 저장 가능</text>
+<text x="480" y="405" text-anchor="middle" font-size="20" fill="#475569">둘 다 파일이지만 저장하는 모습과 사용하는 함수가 다릅니다.</text>
+</g></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+<title id="title">프로그램과 파일 사이의 읽기와 쓰기</title><desc id="desc">프로그램이 파일에 쓰고 파일에서 읽어오는 흐름을 보여준다.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+<rect width="960" height="400" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="29" font-weight="700" fill="#0f172a">프로그램과 파일은 서로 데이터를 주고받습니다</text>
+<rect x="90" y="120" width="260" height="150" rx="20" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="220" y="175" text-anchor="middle" font-size="27" font-weight="700" fill="#1d4ed8">C 프로그램</text>
+<text x="220" y="218" text-anchor="middle" font-size="20" fill="#475569">실행 중인 데이터</text>
+<rect x="610" y="120" width="260" height="150" rx="20" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+<text x="740" y="175" text-anchor="middle" font-size="27" font-weight="700" fill="#15803d">study.txt</text>
+<text x="740" y="218" text-anchor="middle" font-size="20" fill="#475569">실행이 끝나도 남는 데이터</text>
+<line x1="365" y1="165" x2="590" y2="165" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+<text x="480" y="145" text-anchor="middle" font-size="21" font-weight="700" fill="#1d4ed8">쓰기</text>
+<line x1="595" y1="235" x2="370" y2="235" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+<text x="480" y="270" text-anchor="middle" font-size="21" font-weight="700" fill="#1d4ed8">읽기</text>
+<text x="480" y="342" text-anchor="middle" font-size="21" fill="#475569">파일 = 프로그램이 끝난 뒤에도 정보를 보관할 수 있는 저장 공간</text>
+</g></svg>
