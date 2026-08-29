@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+<title id="title">구조체의 점 연산자와 화살표 연산자 비교</title><desc id="desc">구조체 변수는 점으로, 구조체 포인터는 화살표로 멤버에 접근한다.</desc>
+<rect width="960" height="400" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">구조체 변수와 구조체 포인터는 접근 방법이 다릅니다</text>
+<rect x="55" y="95" width="380" height="230" rx="20" fill="#fff" stroke="#3b82f6" stroke-width="3"/>
+<text x="245" y="140" text-anchor="middle" font-size="24" font-weight="700" fill="#1d4ed8">구조체 변수</text>
+<text x="245" y="195" text-anchor="middle" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#0f172a">student.age</text>
+<text x="245" y="245" text-anchor="middle" font-size="20" fill="#475569">변수 자체가 구조체</text>
+<text x="245" y="285" text-anchor="middle" font-size="22" font-weight="700" fill="#1d4ed8">점 . 사용</text>
+<rect x="525" y="95" width="380" height="230" rx="20" fill="#fff" stroke="#8b5cf6" stroke-width="3"/>
+<text x="715" y="140" text-anchor="middle" font-size="24" font-weight="700" fill="#6d28d9">구조체 포인터</text>
+<text x="715" y="195" text-anchor="middle" font-family="Consolas, monospace" font-size="34" font-weight="700" fill="#0f172a">p-&gt;age</text>
+<text x="715" y="245" text-anchor="middle" font-size="20" fill="#475569">p가 구조체의 주소를 저장</text>
+<text x="715" y="285" text-anchor="middle" font-size="22" font-weight="700" fill="#6d28d9">화살표 -&gt; 사용</text>
+<text x="480" y="366" text-anchor="middle" font-size="21" fill="#334155">p-&gt;age 는 (*p).age 와 같은 뜻입니다.</text>
+</g></svg>

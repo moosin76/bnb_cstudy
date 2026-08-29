@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390" role="img" aria-labelledby="title desc">
+<title id="title">typedef로 구조체 이름을 짧게 만드는 과정</title><desc id="desc">struct Student를 typedef로 Student라는 별칭으로 만들어 선언을 간단하게 한다.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/></marker></defs>
+<rect width="960" height="390" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">typedef는 긴 자료형 이름에 짧은 별명을 붙입니다</text>
+<rect x="60" y="105" width="335" height="190" rx="18" fill="#fff" stroke="#64748b" stroke-width="3"/>
+<text x="227" y="145" text-anchor="middle" font-size="21" fill="#475569">typedef 없이</text>
+<text x="227" y="205" text-anchor="middle" font-family="Consolas, monospace" font-size="27" font-weight="700" fill="#0f172a">struct Student s1;</text>
+<text x="227" y="250" text-anchor="middle" font-size="18" fill="#64748b">매번 struct를 써야 함</text>
+<line x1="410" y1="200" x2="540" y2="200" stroke="#0f766e" stroke-width="5" marker-end="url(#a)"/>
+<text x="475" y="180" text-anchor="middle" font-size="21" font-weight="700" fill="#0f766e">typedef</text>
+<rect x="565" y="105" width="335" height="190" rx="18" fill="#fff" stroke="#14b8a6" stroke-width="3"/>
+<text x="732" y="145" text-anchor="middle" font-size="21" fill="#0f766e">typedef 사용</text>
+<text x="732" y="205" text-anchor="middle" font-family="Consolas, monospace" font-size="29" font-weight="700" fill="#0f172a">Student s1;</text>
+<text x="732" y="250" text-anchor="middle" font-size="18" fill="#64748b">일반 자료형처럼 간단하게</text>
+<text x="480" y="345" text-anchor="middle" font-size="20" fill="#334155">기능이 바뀌는 것이 아니라 이름을 편하게 쓰는 것입니다.</text>
+</g></svg>

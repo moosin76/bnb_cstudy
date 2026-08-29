@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">구조체 포인터가 구조체 변수를 가리키는 모습</title><desc id="desc">포인터 p 안에 구조체 변수 s의 주소가 들어 있고 p 화살표 name과 age로 멤버에 접근한다.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#6d28d9"/></marker></defs>
+<rect width="960" height="420" rx="24" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<text x="480" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">포인터 p는 구조체의 위치를 기억합니다</text>
+<rect x="90" y="135" width="230" height="150" rx="18" fill="#fff" stroke="#8b5cf6" stroke-width="3"/>
+<text x="205" y="180" text-anchor="middle" font-size="25" font-weight="700" fill="#6d28d9">포인터 p</text>
+<text x="205" y="230" text-anchor="middle" font-family="Consolas, monospace" font-size="28" fill="#0f172a">0x1000</text>
+<text x="205" y="265" text-anchor="middle" font-size="17" fill="#64748b">s의 주소 저장</text>
+<line x1="320" y1="210" x2="555" y2="210" stroke="#6d28d9" stroke-width="5" marker-end="url(#a)"/>
+<rect x="585" y="95" width="285" height="230" rx="18" fill="#fff" stroke="#3b82f6" stroke-width="3"/>
+<text x="727" y="135" text-anchor="middle" font-size="23" font-weight="700" fill="#1d4ed8">구조체 변수 s</text>
+<rect x="620" y="160" width="215" height="58" rx="10" fill="#eff6ff"/><text x="727" y="197" text-anchor="middle" font-size="21" fill="#0f172a">name = "민수"</text>
+<rect x="620" y="235" width="215" height="58" rx="10" fill="#eff6ff"/><text x="727" y="272" text-anchor="middle" font-size="21" fill="#0f172a">age = 20</text>
+<text x="727" y="350" text-anchor="middle" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#6d28d9">p-&gt;age = 20</text>
+</g></svg>
