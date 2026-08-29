@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">입력과 출력의 흐름</title>
+  <desc id="desc">사용자가 키보드로 값을 입력하면 C 프로그램이 처리하고 화면으로 결과를 출력하는 흐름</desc>
+  <rect width="960" height="300" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <rect x="45" y="62" width="220" height="176" rx="22" fill="#eef6ff" stroke="#5b9cf6" stroke-width="3"/>
+    <circle cx="155" cy="111" r="28" fill="#ffd9b3"/>
+    <path d="M108 184 Q155 137 202 184 L202 206 L108 206Z" fill="#6aa9ff"/>
+    <rect x="105" y="213" width="100" height="12" rx="6" fill="#506070"/>
+    <text x="155" y="38" font-size="24" font-weight="700" fill="#1f3b63">사람</text>
+    <text x="155" y="266" font-size="20" fill="#334155">키보드로 25 입력</text>
+
+    <rect x="370" y="62" width="220" height="176" rx="22" fill="#effcf4" stroke="#55b37a" stroke-width="3"/>
+    <rect x="430" y="100" width="100" height="72" rx="10" fill="#1f2937"/>
+    <text x="480" y="143" font-size="27" font-weight="700" fill="#ffffff">C</text>
+    <text x="480" y="38" font-size="24" font-weight="700" fill="#276749">프로그램</text>
+    <text x="480" y="205" font-size="20" fill="#334155">입력값을 받아 처리</text>
+
+    <rect x="695" y="62" width="220" height="176" rx="22" fill="#fff7ed" stroke="#e8a34a" stroke-width="3"/>
+    <rect x="750" y="96" width="110" height="82" rx="8" fill="#334155"/>
+    <rect x="760" y="106" width="90" height="62" rx="4" fill="#ffffff"/>
+    <text x="805" y="143" font-size="22" font-weight="700" fill="#1f2937">25세</text>
+    <rect x="790" y="178" width="30" height="20" fill="#64748b"/>
+    <rect x="770" y="198" width="70" height="10" rx="5" fill="#64748b"/>
+    <text x="805" y="38" font-size="24" font-weight="700" fill="#9a5b00">화면</text>
+    <text x="805" y="266" font-size="20" fill="#334155">결과를 보여 줌</text>
+
+    <line x1="274" y1="150" x2="355" y2="150" stroke="#3b82f6" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="355,150 334,136 334,164" fill="#3b82f6"/>
+    <text x="315" y="124" font-size="20" font-weight="700" fill="#2563eb">입력</text>
+
+    <line x1="599" y1="150" x2="680" y2="150" stroke="#ef6c5b" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="680,150 659,136 659,164" fill="#ef6c5b"/>
+    <text x="640" y="124" font-size="20" font-weight="700" fill="#d94835">출력</text>
+  </g>
+</svg>
