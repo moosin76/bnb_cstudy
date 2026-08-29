@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">함수의 값 복사 전달</title>
+  <desc id="desc">main 함수의 score 값 50이 changeNumber 함수의 number로 복사되고, number를 100으로 바꿔도 score는 50으로 남는 흐름</desc>
+  <rect width="960" height="360" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <text x="480" y="46" font-size="28" font-weight="700" fill="#0f172a">함수에는 원본이 아니라 “값의 복사본”이 전달됩니다</text>
+
+    <rect x="70" y="92" width="270" height="170" rx="18" fill="#eef6ff" stroke="#60a5fa" stroke-width="3"/>
+    <text x="205" y="130" font-size="21" font-weight="700" fill="#1e3a8a">main()의 변수</text>
+    <text x="205" y="174" font-size="24" fill="#334155">score</text>
+    <rect x="145" y="192" width="120" height="50" rx="10" fill="#ffffff" stroke="#60a5fa" stroke-width="2"/>
+    <text x="205" y="227" font-size="32" font-weight="700" fill="#1d4ed8">50</text>
+
+    <line x1="360" y1="178" x2="585" y2="178" stroke="#64748b" stroke-width="7" stroke-linecap="round"/>
+    <polygon points="585,178 560,161 560,195" fill="#64748b"/>
+    <text x="472" y="146" font-size="20" font-weight="700" fill="#475569">값 50을 복사</text>
+
+    <rect x="620" y="92" width="270" height="170" rx="18" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+    <text x="755" y="130" font-size="21" font-weight="700" fill="#9a3412">changeNumber()의 변수</text>
+    <text x="755" y="174" font-size="24" fill="#334155">number</text>
+    <rect x="695" y="192" width="120" height="50" rx="10" fill="#ffffff" stroke="#fb923c" stroke-width="2"/>
+    <text x="755" y="227" font-size="32" font-weight="700" fill="#c2410c">50</text>
+
+    <text x="755" y="294" font-size="20" fill="#9a3412">함수 안에서 number = 100으로 변경</text>
+    <text x="480" y="334" font-size="21" font-weight="700" fill="#0f172a">결과: number는 100이 되어도 score는 여전히 50</text>
+  </g>
+</svg>

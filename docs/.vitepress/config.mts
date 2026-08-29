@@ -20,7 +20,8 @@ export default defineConfig({
       { text: '3주차', link: '/lectures/03-io-functions-1' },
       { text: '4주차', link: '/lectures/04-operators' },
       { text: '5주차', link: '/lectures/05-control-flow' },
-      { text: '6주차', link: '/lectures/06-functions-1' }
+      { text: '6주차', link: '/lectures/06-functions-1' },
+      { text: '7주차', link: '/lectures/07-functions-2' }
     ],
     sidebar: [
       {
@@ -39,7 +40,8 @@ export default defineConfig({
           { text: '3주차 · 입·출력 함수와 연산자(1)', link: '/lectures/03-io-functions-1' },
           { text: '4주차 · 입·출력 함수와 연산자(2)', link: '/lectures/04-operators' },
           { text: '5주차 · 선택 제어문과 반복 제어문', link: '/lectures/05-control-flow' },
-          { text: '6주차 · 함수와 기억 클래스(1)', link: '/lectures/06-functions-1' }
+          { text: '6주차 · 함수와 기억 클래스(1)', link: '/lectures/06-functions-1' },
+          { text: '7주차 · 함수와 기억 클래스(2)', link: '/lectures/07-functions-2' }
         ]
       }
     ],

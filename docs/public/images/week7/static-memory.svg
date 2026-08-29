@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" role="img" aria-labelledby="title desc">
+  <title id="title">static 지역변수의 값 기억</title>
+  <desc id="desc">count 함수가 세 번 호출될 때 static 지역변수가 1, 2, 3으로 값을 이어서 기억하는 그림</desc>
+  <rect width="960" height="340" rx="24" fill="#f8fafc"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <text x="480" y="48" font-size="28" font-weight="700" fill="#0f172a">static 지역변수는 다음 호출에도 이전 값을 기억합니다</text>
+
+    <rect x="65" y="105" width="220" height="135" rx="18" fill="#eef6ff" stroke="#60a5fa" stroke-width="3"/>
+    <text x="175" y="142" font-size="21" font-weight="700" fill="#1e3a8a">첫 번째 호출</text>
+    <text x="175" y="190" font-size="34" font-weight="700" fill="#1d4ed8">0 → 1</text>
+    <text x="175" y="222" font-size="18" fill="#475569">1을 기억</text>
+
+    <text x="330" y="180" font-size="22" font-weight="700" fill="#64748b">기억 →</text>
+
+    <rect x="370" y="105" width="220" height="135" rx="18" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+    <text x="480" y="142" font-size="21" font-weight="700" fill="#9a3412">두 번째 호출</text>
+    <text x="480" y="190" font-size="34" font-weight="700" fill="#c2410c">1 → 2</text>
+    <text x="480" y="222" font-size="18" fill="#475569">2를 기억</text>
+
+    <text x="635" y="180" font-size="22" font-weight="700" fill="#64748b">기억 →</text>
+
+    <rect x="675" y="105" width="220" height="135" rx="18" fill="#effcf4" stroke="#55b37a" stroke-width="3"/>
+    <text x="785" y="142" font-size="21" font-weight="700" fill="#276749">세 번째 호출</text>
+    <text x="785" y="190" font-size="34" font-weight="700" fill="#276749">2 → 3</text>
+    <text x="785" y="222" font-size="18" fill="#475569">3을 기억</text>
+
+    <text x="480" y="292" font-size="21" font-weight="700" fill="#0f172a">일반 지역변수라면 호출할 때마다 다시 0에서 시작합니다</text>
+  </g>
+</svg>
