@@ -24,7 +24,8 @@ export default defineConfig({
       { text: '7주차', link: '/lectures/07-functions-2' },
       { text: '8주차', link: '/lectures/08-arrays-pointers-1' },
       { text: '9주차', link: '/lectures/09-arrays-pointers-2' },
-      { text: '10주차', link: '/lectures/10-arrays-pointers-3' }
+      { text: '10주차', link: '/lectures/10-arrays-pointers-3' },
+      { text: '11주차', link: '/lectures/11-struct-union-1' }
     ],
     sidebar: [
       {
@@ -47,7 +48,8 @@ export default defineConfig({
           { text: '7주차 · 함수와 기억 클래스(2)', link: '/lectures/07-functions-2' },
           { text: '8주차 · 배열과 포인터(1)', link: '/lectures/08-arrays-pointers-1' },
           { text: '9주차 · 배열과 포인터(2)', link: '/lectures/09-arrays-pointers-2' },
-          { text: '10주차 · 배열과 포인터(3)', link: '/lectures/10-arrays-pointers-3' }
+          { text: '10주차 · 배열과 포인터(3)', link: '/lectures/10-arrays-pointers-3' },
+          { text: '11주차 · 구조체와 공용체(1)', link: '/lectures/11-struct-union-1' }
         ]
       }
     ],
