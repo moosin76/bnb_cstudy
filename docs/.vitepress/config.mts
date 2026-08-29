@@ -12,25 +12,6 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    nav: [
-      { text: '처음으로', link: '/' },
-      { text: '설치 준비', link: '/setup/download' },
-      { text: '1주차', link: '/lectures/01-overview' },
-      { text: '2주차', link: '/lectures/02-data-types' },
-      { text: '3주차', link: '/lectures/03-io-functions-1' },
-      { text: '4주차', link: '/lectures/04-operators' },
-      { text: '5주차', link: '/lectures/05-control-flow' },
-      { text: '6주차', link: '/lectures/06-functions-1' },
-      { text: '7주차', link: '/lectures/07-functions-2' },
-      { text: '8주차', link: '/lectures/08-arrays-pointers-1' },
-      { text: '9주차', link: '/lectures/09-arrays-pointers-2' },
-      { text: '10주차', link: '/lectures/10-arrays-pointers-3' },
-      { text: '11주차', link: '/lectures/11-struct-union-1' },
-      { text: '12주차', link: '/lectures/12-struct-union-2' },
-      { text: '13주차', link: '/lectures/13-file-io' },
-      { text: '14주차', link: '/lectures/14-dynamic-memory' },
-      { text: '15주차', link: '/lectures/15-cpp-overview' }
-    ],
     sidebar: [
       {
         text: '스터디 시작 전',
